@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-const DEFAULT_RESPONSE_TIMEOUT = 20 // ms
+const DEFAULT_RESPONSE_TIMEOUT = 300 // ms
 
 // Client Omron FINS client
 type Client struct {
